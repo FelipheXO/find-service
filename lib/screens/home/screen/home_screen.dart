@@ -19,8 +19,10 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   init() async {
-    services = await Get.find<ServicesController>().get();
-    setState(() {});
+    WidgetsBinding.instance.addPostFrameCallback((_) async {
+      services = await Get.find<ServicesController>().get();
+      setState(() {});
+    });
   }
 
   @override

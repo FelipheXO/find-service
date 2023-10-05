@@ -7,7 +7,7 @@ class _BuildCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomButton(
-      height: 150,
+      height: 160,
       color: AppColor.secudary,
       onPressed: () {
         Get.to(ServiceScreen(services: services));
@@ -24,6 +24,7 @@ class _BuildCard extends StatelessWidget {
                 overflow: TextOverflow.ellipsis,
                 style: customSuperBig(context, bold: true),
               ),
+              const SizedBox(height: 5),
               Container(
                 height: 35,
                 alignment: Alignment.center,
@@ -31,7 +32,7 @@ class _BuildCard extends StatelessWidget {
                   services.des ?? '',
                   maxLines: 2,
                   overflow: TextOverflow.ellipsis,
-                  style: customMedium(context),
+                  style: customMedium(context, color: AppColor.grey),
                 ),
               ),
               const Spacer(),
