@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "966977273364",
+    "project_id": "find-service-f4de4",
+    "storage_bucket": "find-service-f4de4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966977273364:android:25cffcac129f52676af101",
+        "android_client_info": {
+          "package_name": "com.find.service"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGdjcUOhzxZB7gCjRl-PvdEtck3yG6jA8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
