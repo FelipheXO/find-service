@@ -14,17 +14,17 @@ Find Service is a simple Flutter app that allows users to create an account and 
 
 ## Download
 
-[URL](https://google.com)
+[Download](https://google.com)
 
 ## Screens
 
-![SignIn](https://imgur.com/W17AK1G)
+![SignIn](https://imgur.com/W17AK1G.png)
 
-![Splash](https://imgur.com/FWcrucM)
+![Splash](https://imgur.com/FWcrucM.png)
 
-![Home](https://imgur.com/pCJU4WX)
+![Home](https://imgur.com/pCJU4WX.png)
 
-![Image](https://imgur.com/9LE6sMB)
+![Image](https://imgur.com/9LE6sMB.png)
 
 ![Image](https://imgur.com/u8LrAOe)
 
